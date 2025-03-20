@@ -32,43 +32,43 @@ import {
       icon:<UserRound size={20} />,
       label: <Link to="/dashboard">Dashboard</Link>,
     },
-    {
-      key: "2",
-      icon:<UsersRound size={20}  />,
-      label: "User Management",
-      children: [
-        {
-          key: "permissions",
-          label: (
+    // {
+    //   key: "2",
+    //   icon:<UsersRound size={20}  />,
+    //   label: "User Management",
+    //   children: [
+    //     {
+    //       key: "permissions",
+    //       label: (
            
-              <p className="flex items-center gap-1 font-medium">
-                <ShieldCheck size={20} /> Permissions
-              </p>
+    //           <p className="flex items-center gap-1 font-medium">
+    //             <ShieldCheck size={20} /> Permissions
+    //           </p>
             
-          ),
-        },
-        {
-          key: "roles",
-          label: (
-            <Link to="/dashboard/roles">
-              <p className="flex items-center gap-1 font-medium">
-                <Users size={20} /> Roles
-              </p>
-            </Link>
-          ),
-        },
-        {
-          key: "users",
-          label: (
+    //       ),
+    //     },
+    //     {
+    //       key: "roles",
+    //       label: (
+    //         <Link to="/dashboard/roles">
+    //           <p className="flex items-center gap-1 font-medium">
+    //             <Users size={20} /> Roles
+    //           </p>
+    //         </Link>
+    //       ),
+    //     },
+    //     {
+    //       key: "users",
+    //       label: (
            
-              <p className="flex items-center gap-1 font-medium">
-                <UserCheck size={20} /> Users
-              </p>
+    //           <p className="flex items-center gap-1 font-medium">
+    //             <UserCheck size={20} /> Users
+    //           </p>
             
-          ),
-        },
-      ],
-    },
+    //       ),
+    //     },
+    //   ],
+    // },
     {
       key: "3",
       icon: <Globe size={20} />,
